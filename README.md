@@ -1,2 +1,7 @@
 # Multi-Scale-Pyramid-Convolution-and-Adaptive-Multi-Feature-Fusion-Network
 该方法引入了可变形卷积(Deformable Convolution，DConv)模块、多比例空间金字塔卷积(Multi-proportion Spatial Pyramid Convolution，MSPC)结构和自适应多尺度特征融合(Adaptive Spatial Feature Fusion Network，ASFFN)策略来增强算法适应性。具体而言，在特征提取网络中用可变形卷积模块替代原卷积模块，使网络能动态调整卷积核大小，增强对不同尺寸瑕疵特征的捕捉能力；多比例空间金字塔卷积结构通过拼接多个1×3和3×1卷积核，提取更丰富的瑕疵特征信息，提高模型对不同比例尺度特征的敏感性；应用特征融合策略整合ASFF结构，高效捕捉多尺度的瑕疵信息。
+
+
+ultralytics\nn\AFPN.py
+ultralytics\MS.py 为第四章的网络框架
+ultralytics\nn\phd_benel_Glod_YOLO_DSC.py  为第五章的网络框架；
